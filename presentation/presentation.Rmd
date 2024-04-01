@@ -35,7 +35,7 @@ knitr::opts_chunk$set(fig.retina = 3, dpi = 300, fig.width = 6, fig.asp = 0.618,
 
 ```{r}
 style_xaringan(
-  title_slide_background_image = "img/confetti.jpg"
+  title_slide_background_image = "../img/confetti.jpg"
 )
 ```
 
@@ -160,7 +160,7 @@ kable(head(iris), format = "html")
 # Images
 
 ```{r castle, echo = FALSE, out.width = "60%", fig.align = "center", fig.cap = "Image credit: Photo by Enjoy Illinois."}
-include_graphics("img/chicago-fall.jpeg")
+include_graphics("../img/chicago-fall.jpeg")
 ```
 
 
